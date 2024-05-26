@@ -1,0 +1,37 @@
+Inneclass:-
+--------------
+
+1) Member Innerclass:-
+-----------------------
+	class A
+	{
+		// Member Innerclass
+		class B
+		{
+
+		}
+	}
+
+
+
+
+2) Anonymous Innerclass
+3) local Innerclass
+4) Nested Innerclass
+
+
+class A
+{
+	// Innerclass vs Nestedclass	
+
+	// Innerclass	
+	class B
+	{
+
+	}
+	// Nestedclass------->Innerclass	
+	static class C
+	{
+
+	}
+}

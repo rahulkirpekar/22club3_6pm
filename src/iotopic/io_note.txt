@@ -1,0 +1,24 @@
+
+reading       writting
+ from 		 in
+console        console/file
+   | file	  |
+InputStream/OutputStream:-
+-------------------------
+
+Data(String/Object):-
+-----------------------
+			1) By Byte oriented way
+			---------------------------
+			---> FileOutputStream(write)
+			---> FileInputStream(read)
+
+String Data:-
+---------------	
+			2) By character oriented way
+			------------------------------
+			---> FileWriter(write)
+			---> FileReader(read)
+
+
+
