@@ -1,0 +1,64 @@
+Array Limitation:-
+------------------
+
+	int a[] = new int[5];
+
+1) FIXED SIZE
+2) TYPED SAFE
+
+Collection Framework:- To overcome array Limitation
+-----------------------
+
+			************************
+			Hierarchy of Collection  -- java.util.*
+			************************
+
+				Iterable(I)------------------------------------------------------
+				   |								|
+				Collection(I)												|
+				   |								|
+				   |Data---value											|
+				   |								|
+	----------------------------------------------------------				|
+	|			   |				|				|
+       List(I) 			  Set(I)		       Queue(I)			       Map(K,V)	
+	|			   |				|				|
+AbstractList(AC)		AbstractSet(AC)		AbstractQueue(AC)		  AbstractMap(AC)	
+	|			   |				|				|
+--ArrayList(C)		--HashSet(C)			--PriorityQueue(C)		    --HashMap(C)
+--Vector(C)		--LinkedHashSet(C)						    --LinkedHashMap(C)
+--LinkedList(C)		--TreeSet(C)							    --TreeMap(C)	
+
+
+ArrayList listobj
+
+i  v
+0--1
+1--2
+2--3(5th address)
+3--5
+4--6
+5--7
+6--8
+7--9
+8--10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
