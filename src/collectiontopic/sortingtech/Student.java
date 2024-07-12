@@ -1,6 +1,6 @@
 package collectiontopic.sortingtech;
 
-public class Student implements Comparable<Student>
+public class Student //implements Comparable<Student>
 {
 	private int rno;
 	private String name;
@@ -61,9 +61,9 @@ public class Student implements Comparable<Student>
 //			return 0;
 //		}
 //	}
-	@Override
-	public int compareTo(Student s2) 
-	{
-		return getName().compareTo(s2.getName());
-	}
+//	@Override
+//	public int compareTo(Student s2) 
+//	{
+//		return getName().compareTo(s2.getName());
+//	}
 }

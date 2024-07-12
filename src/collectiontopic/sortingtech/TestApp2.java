@@ -22,13 +22,23 @@ public class TestApp2
 			Student s = list.get(i);
 			s.disp();
 		}
-		Collections.sort(list);
-		System.out.println("After Sorting : ");
+		
+		Collections.sort(list, new StdWiseComparator());
+		
+		System.out.println("After stdwise Sorting : ");
 		for (int i = 0; i < list.size(); i++) 
 		{
 			Student s = list.get(i);
 			s.disp();
 		}
 		
+		Collections.sort(list, new NameWiseComparator());
+		
+		System.out.println("After Namewise Sorting : ");
+		for (int i = 0; i < list.size(); i++) 
+		{
+			Student s = list.get(i);
+			s.disp();
+		}
 	}
 }
